@@ -1,0 +1,28 @@
+header{
+    margin-top:5%;
+}
+.purpleFont{
+    color:purple!important;
+}
+textarea{
+    border-color:rgba(238,130,238,0.6)!important;
+}
+textarea:focus{
+    border-color:purple!important;
+}
+.btnSend{
+    float:right!important;
+    margin-top:1em!important;
+}
+.bar{
+    height: 40px;
+    border: 1px solid purple;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.bar .label{
+    background: rgba(238,130,238,0.3)!important;
+    cursor: pointer!important;
+}
